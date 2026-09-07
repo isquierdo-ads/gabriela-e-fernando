@@ -159,7 +159,7 @@ export default function App() {
           </h1>
 
           <p style={styles.subtitle}>
-            Gabriela, você acaba de deixar
+            Gabriele, você acaba de deixar
             <br />
             alguém muito feliz! ❤️
           </p>
@@ -232,7 +232,7 @@ export default function App() {
         </div>
 
         <h1 style={styles.title}>
-          Gabriela, aceita
+          Gabriele, aceita
           <br />
           namorar comigo?
         </h1>
