@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App() {
   const [attempts, setAttempts] = useState(0);
@@ -291,7 +292,7 @@ export default function App() {
             Espaço reservado para o NÃO
             somente na posição inicial.
           */}
-
+      <Analytics />
           {attempts === 0 && (
             <button
               type="button"
